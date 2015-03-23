@@ -85,7 +85,7 @@
     </p>
   <p class="article-time">
     <time datetime="2015-03-20T06:14:31.000Z" itemprop="datePublished">2015-03-20</time>
-    更新日期:<time datetime="2015-03-23T09:40:25.000Z" itemprop="dateModified">2015-03-23</time>
+    更新日期:<time datetime="2015-03-23T09:51:18.000Z" itemprop="dateModified">2015-03-23</time>
     
   </p>
 </header>
@@ -102,14 +102,8 @@
 <h3 id="准备和迁移工作">准备和迁移工作</h3><p>需要先配置好Node.js环境，npm工具以及Git，之后的本地初始化请参考文档中的说明，照着文档一步步做就行。<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br><span class="line">hexo init <span class="tag">&lt;<span class="title">folder</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p>全局设定文件储存于网站根目录下的_config.yml文件，根据你的需要配置站点名，固定链接等诸多设定。<br>如果你是从jekyll/Octopress/Wordpress迁移过来的，也很容易，顺着这里安装下插件。注意留意所有文件中，尤其是配置文件中的空格，缺少空格会报错。</p>
 <h3 id="安装插件和主题">安装插件和主题</h3><p>Hexo提供丰富的插件以及主题。安装方法都是一样的。</p>
-<ul>
-<li>插件</li>
-</ul>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> &lt;<span class="keyword">plugin</span>-name&gt; <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>主题<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone <span class="tag">&lt;<span class="title">repository</span>&gt;</span> themes/<span class="tag">&lt;<span class="title">theme-name</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install &#60;plugin-name&#62; --save</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone &#60;repository&#62; themes/&#60;theme-name&#62;</span><br></pre></td></tr></table></figure>
 <p>无论是插件还是主题在安装后都需要在根目录下_config.yml中修改plugins和theme的值以启用他们。</p>
 <h3 id="使用与调试">使用与调试</h3><p>在本地如果需要预览或者调试你的博客，可以启动本地服务器：<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">server</span></span><br></pre></td></tr></table></figure></p>
   
